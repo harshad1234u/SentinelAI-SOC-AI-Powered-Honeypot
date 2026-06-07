@@ -1,0 +1,12 @@
+ENVIRONMENT: production
+DEBUG: "false"
+REDIS_ENABLED: "false"
+LOKI_URL: http://34.93.77.93:3100
+QDRANT_URL: http://34.93.77.93:6333
+GEOIP_BUCKET_NAME: honeypot-soc-geoip-us-central1
+NIM_BASE_URL: https://integrate.api.nvidia.com/v1
+REALTIME_MODEL: deepseek-ai/deepseek-v4-flash
+FALLBACK_REALTIME_MODEL: nvidia/llama-3.1-nemotron-nano-8b-v1
+INVESTIGATION_MODEL: qwen/qwen3-next-80b-a3b-instruct
+EMBED_MODEL: nvidia/nv-embedqa-e5-v5
+CORS_ORIGINS: '["https://soc-frontend-755420559974.us-central1.run.app","http://localhost:3000"]'

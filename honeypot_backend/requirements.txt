@@ -1,0 +1,50 @@
+# Core
+fastapi==0.115.12
+uvicorn[standard]==0.34.3
+gunicorn==23.0.0
+pydantic==2.11.3
+pydantic-settings==2.9.1
+python-dotenv==1.1.0
+orjson==3.10.18
+
+# Database
+sqlalchemy[asyncio]==2.0.41
+asyncpg==0.30.0
+alembic==1.15.2
+
+# Redis & Workers
+redis[hiredis]==6.2.0
+rq==2.3.3
+
+# Vector DB
+qdrant-client==1.18.0
+
+# Auth
+python-jose[cryptography]==3.4.0
+passlib[bcrypt]==1.7.4
+
+# HTTP
+httpx==0.28.1
+
+# GeoIP
+geoip2==4.8.1
+
+# AI (OpenAI-compatible SDK for NIM)
+openai==1.82.0
+
+# Monitoring
+prometheus-client==0.22.1
+prometheus-fastapi-instrumentator==7.0.2
+
+# Logging
+structlog==25.4.0
+
+# Utilities
+python-multipart==0.0.20
+
+# Testing
+pytest==8.4.0
+pytest-asyncio==1.0.0
+
+# Cloud
+google-cloud-storage==2.14.0
